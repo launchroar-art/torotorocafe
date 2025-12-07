@@ -1,25 +1,88 @@
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p><strong>Toro Toro Café</strong></p>
 
-  <p>📍 Address:<br>
-  123, Main Street,<br>
-  Gurgaon, Haryana, India</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Toro Toro Café — Cozy café in Gurugram</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">TT</div>
+        <div>
+          <strong style="font-size:18px">Toro Toro Café</strong><br>
+          <span style="font-size:12px;color:var(--muted)">Sector 113, Bajghera, Gurugram</span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-  <p>📞 Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+    <div class="hero">
+      <div class="card">
+        <h1>Welcome to Toro Toro Café</h1>
+        <p class="lead">A cozy, natural-themed café in Gurugram serving handcrafted beverages, fresh food, and warm hospitality.</p>
+        <a class="btn" href="menu.html">See Our Menu</a>
+        <ul class="info-list">
+          <li>📍 Sector 113, Bajghera, Gurugram, Haryana 122017</li>
+          <li>📞 +91 99992 56900</li>
+          <li>⏰ Daily: 10:00 AM – 10:00 PM</li>
+        </ul>
+        <h3 style="margin-top:16px">Signature Picks</h3>
+        <p style="color:var(--muted)">Try our handcrafted cold brew, wood-fired sandwiches, and the seasonal pumpkin latte.</p>
+      </div>
 
-  <p>📱 WhatsApp: <a href="https://wa.me/911234567890">Chat on WhatsApp</a></p>
+      <aside class="card">
+        <h3 style="margin-top:0">Reserve a table</h3>
+        <p style="color:var(--muted)">Call or WhatsApp to reserve a cozy corner.</p>
+        <a class="btn" href="contact.html">Call / WhatsApp</a>
 
-  <p>⏰ Opening Hours:<br>
-  Monday – Sunday: 10:00 AM – 10:00 PM</p>
+        <div style="margin-top:16px">
+          <h4 style="margin:8px 0;color:var(--muted)">Gallery</h4>
+          <div class="gallery">
+            <img src="images/cafe1.svg" alt="cafe image 1">
+            <img src="images/cafe2.svg" alt="cafe image 2">
+            <img src="images/cafe3.svg" alt="cafe image 3">
+          </div>
+        </div>
+      </aside>
+    </div>
 
-  <h3>Find Us on Google Maps</h3>
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.123456!2d77.123456!3d28.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1234567890%3A0xabcdef1234567890!2sToro%20Toro%20Cafe!5e0!3m2!1sen!2sin!4v1234567890"
-    width="100%"
-    height="300"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy">
-  </iframe>
-</section>
+    <div class="sections">
+      <main class="section card">
+        <h2>About our café</h2>
+        <p style="color:var(--muted)">Toro Toro Café is inspired by nature — simple interiors, plants, wooden tables, and a menu crafted for comfort. We source local ingredients and roast small batches for consistency. Whether you need a quiet place to work or a friendly meetup spot, we welcome you.</p>
+
+        <h3 style="margin-top:12px">Location</h3>
+        <p style="color:var(--muted)">Sector 113, Bajghera, Gurugram, Haryana 122017</p>
+
+        <h3 style="margin-top:12px">Find us on Google Maps</h3>
+        <!-- Using a Google Maps place query embed -->
+        <div style="border-radius:10px;overflow:hidden;margin-top:8px">
+          <iframe width="100%" height="260" loading="lazy" 
+            src="https://www.google.com/maps?q=Sector%20113%20Bajghera%20Gurugram%20Haryana%20122017&output=embed"></iframe>
+        </div>
+      </main>
+
+      <aside class="section card">
+        <h3>Opening Hours</h3>
+        <p style="color:var(--muted)">Mon–Sun: 10:00 AM – 10:00 PM</p>
+        <h3 style="margin-top:12px">Contact</h3>
+        <p style="color:var(--muted)">Phone: <a href="tel:+919999256900" style="color:var(--accent);text-decoration:none">+91 99992 56900</a></p>
+        <p style="color:var(--muted)">WhatsApp: <a href="https://wa.me/919999256900" style="color:var(--accent);text-decoration:none">Chat on WhatsApp</a></p>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      © 2025 Toro Toro Café — Sector 113, Bajghera, Gurugram • <a href="contact.html" style="color:var(--muted);text-decoration:none">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
